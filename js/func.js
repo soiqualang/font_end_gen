@@ -19,14 +19,16 @@ function load_page(){
 	var haha=hash2param().p;
 	console.log(haha);
 	if(haha!=undefined){
+		$('#container').load('pages/'+haha+'.rose'+ " #container > *");
 		//alert('kaka');
-		$('#container').load('pages/'+haha+'.rose'+ ' #container > *',function() {
+		/* $('#container').load('pages/'+haha+'.rose'+ ' #container > *',function() {
 			//$('#container').load('pages/'+haha+'.rose');
-		});
+		}); */
 	}else{
 		haha='who';
-		$('#container').load('pages/'+haha+'.rose'+ ' #container > *',function() {
+		$('#container').load('pages/'+haha+'.rose'+ " #container > *");
+		/* $('#container').load('pages/'+haha+'.rose'+ ' #container > *',function() {
 			//$('#container').load('pages/'+haha+'.rose');
-		});
+		}); */
 	}
 }

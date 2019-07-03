@@ -1,3 +1,4 @@
+<div id="content">
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
   <h3 class="margin">What Am I?</h3>
@@ -5,4 +6,5 @@
   <a href="#" class="btn btn-default btn-lg">
     <span class="glyphicon glyphicon-search"></span> Search
   </a>
+</div>
 </div>

@@ -1,3 +1,4 @@
+<div id="content">
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center">    
   <h3 class="margin">Where To Find Me?</h3><br>
@@ -15,4 +16,5 @@
       <img src="img/birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
   </div>
+</div>
 </div>
