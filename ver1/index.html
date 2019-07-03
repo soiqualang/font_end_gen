@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='UTF-8'>
+	<title>Demo Page</title>
+	<style>
+		* { margin: 0; padding: 0; }
+		#container { margin: 70px auto; width: 400px; }
+	</style>
+</head>
+<body>
+
+<div id="demo-top-bar">
+
+  <div id="demo-bar-inside">
+
+    <h2 id="demo-bar-badge">
+      <a href="/">CSS-Tricks Example</a>
+    </h2>
+
+    <div id="demo-bar-buttons">
+      <a class='header-button' href='/anythingslider-jquery-plugin/'>&larr; Back to Article</a>    </div>
+
+  </div>
+
+</div>
+	<div id='container'>
+    	<nav>
+        	<a href='index.html'>Home</a>
+            <a href='about.html'>About</a>
+            <a href='contact.html'>Contact</a>
+        </nav>
+        <div id='content'>
+        	<h1>Home</h1>
+            <p>This is the home page.</p>
+            <ul>
+            	<li>I'm a list item!</li>
+            	<li>Me too!</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1/jquery.js'></script>
+    <script src='script.js'></script>
+
+ <style type="text/css" style="display: none !important;">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	#demo-top-bar {
+		text-align: left;
+		background: #222;
+		position: relative;
+		zoom: 1;
+		width: 100% !important;
+		z-index: 6000;
+		padding: 20px 0 20px;
+	}
+	#demo-bar-inside {
+		width: 960px;
+		margin: 0 auto;
+		position: relative;
+		overflow: hidden;
+	}
+	#demo-bar-buttons {
+		padding-top: 10px;
+		float: right;
+	}
+	#demo-bar-buttons a {
+		font-size: 12px;
+		margin-left: 20px;
+		color: white;
+		margin: 2px 0;
+		text-decoration: none;
+		font: 14px "Lucida Grande", Sans-Serif !important;
+	}
+	#demo-bar-buttons a:hover,
+	#demo-bar-buttons a:focus {
+		text-decoration: underline;
+	}
+	#demo-bar-badge {
+		display: inline-block;
+		width: 302px;
+		padding: 0 !important;
+		margin: 0 !important;
+		background-color: transparent !important;
+	}
+	#demo-bar-badge a {
+		display: block;
+		width: 100%;
+		height: 38px;
+		border-radius: 0;
+		bottom: auto;
+		margin: 0;
+		/*background: url(/images/examples-logo.png) no-repeat;*/
+		background-size: 100%;
+		overflow: hidden;
+		text-indent: -9999px;
+	}
+	#demo-bar-badge:before, #demo-bar-badge:after {
+		display: none !important;
+	}
+</style>
+</body>
+
+</html>
