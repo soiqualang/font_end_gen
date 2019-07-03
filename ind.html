@@ -38,14 +38,7 @@
 
 
 
-<div id='content'>
-	<h1>Home</h1>
-	<p>This is the home page.</p>
-	<ul>
-		<li>I'm a list item!</li>
-		<li>Me too!</li>
-	</ul>
-</div>
+<div id='content'></div>
 
 
 
@@ -55,23 +48,11 @@
 </footer>
 
 <script>
-$mainContent = $('#content');
 $(document).ready(function() {
-	//load_page();
-    //$('#container').load('pages/who.rose');
-	
-	//$("a").click(function(e){
-		//e.preventDefault();
-		//load_page();
-	//});
+	load_page();
 });
 $(window).bind('hashchange', function() {
-	//newHash = window.location.hash.substr(1);
-	//$mainContent.load(newHash + " #content > *");
-	//load_page();
-	var haha=hash2param().p;
-	var newHash='pages/'+haha+'.php';
-	$mainContent.load(newHash + " #content > *");
+	load_page();
 });
 </script>
 </body>
