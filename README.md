@@ -2,6 +2,20 @@
 
 ## Tịnh tiến về font end =))
 
+## ver3
+
+Integrate with material template
+
+## ver2
+
+Load page with multi param hash =))
+
+## ver1
+
+Simple load page with a param hash
+
+---
+
 Sẵn tìm hiểu làm kỹ thuật thì có ý tưởng làm luôn một cái app quản lý link download file (gần giống book mark)
 
 Chức năng thì đơn giản thôi, dăm ba cái tìm kiếm, hiển thị. Chủ yếu để vọc cách thức đưa gánh nặng gen page từ back-end về font-end với json
