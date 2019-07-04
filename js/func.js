@@ -1,3 +1,4 @@
+//Function to get param in hash
 function hash2param(k){
 	//#a=1&b=2
 	var p={};
@@ -7,6 +8,7 @@ function hash2param(k){
 	return k?p[k]:p;
 }
 
+//Function to get param in url
 function getSearchParams(k){
 	//http://localhost/font_end_gen/t1.html?a=1&b=2
 	var p={};
@@ -15,6 +17,7 @@ function getSearchParams(k){
 	return k?p[k]:p;
 }
 
+//Function to load page from param p in hash
 function load_page(){
 	var p=hash2param().p;
 	console.log(p);
